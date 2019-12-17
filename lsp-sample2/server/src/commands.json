@@ -1,0 +1,127 @@
+[
+  {
+    "label": "https://",
+    "detail": "Enter a URL for web automation.",
+    "documentation": "eg. https://google.com"
+  },
+  {
+    "label": "http://",
+    "detail": "Enter a URL for web automation.",
+    "documentation": "eg. http://google.com"
+  },
+  {
+    "label": "click",
+    "detail": "Clicks an element, or at (x, y) coordinates.",
+    "documentation": "click [identifier] eg. click search\nclick (x, y) eg. click (500, 300)"
+  },
+  {
+    "label": "rclick",
+    "detail": "Right-clicks an element, or at (x, y) coordinates.",
+    "documentation": "rclick [identifier] eg. rclick search\nrclick (x, y) eg. rclick (500, 300)"
+  },
+  {
+    "label": "dclick",
+    "detail": "Double-clicks an element, or at (x, y) coordinates.",
+    "documentation": "dclick [identifier] eg. dclick search\ndclick (x, y) eg. dclick (500, 300)"
+  },
+  {
+    "label": "hover",
+    "detail": "Hovers over an element, or at (x, y) coordinates.",
+    "documentation": "hover [identifier] eg. hover search\nhover (x, y) eg. hover (500, 300)"
+  },
+  {
+    "label": "type",
+    "detail": "Types text into an input.",
+    "documentation": "type [identifier] as [text] eg. type search-box as search-term"
+  },
+  {
+    "label": "select",
+    "detail": "Selects an option in a select input.",
+    "documentation": "select [identifier] as [option value] eg. select //select[1] as volvo"
+  },
+  {
+    "label": "read",
+    "detail": "Gets text from an element.",
+    "documentation": "read [identifier] to [variable] eg. read header as header-text"
+  },
+  {
+    "label": "show",
+    "detail": "Shows an element's text on the console output.",
+    "documentation": "show [identifier] eg. show header"
+  },
+  {
+    "label": "save",
+    "detail": "Saves an element's text to a file.",
+    "documentation": "save [identifier] to [filename] eg. save header to info.txt"
+  },
+  {
+    "label": "snap",
+    "detail": "Saves a screenshot of an element to a file.",
+    "documentation": "snap [identifier] to [filename] eg. snap header to info.txt"
+  },
+  {
+    "label": "load",
+    "detail": "Loads a file as text into a variable.",
+    "documentation": "load [filename] to [variable] eg. load search.txt to search-term"
+  },
+  {
+    "label": "echo",
+    "detail": "Shows text on the console output.",
+    "documentation": "echo [text] eg. echo \"Welcome to TagUI \" name"
+  },
+  {
+    "label": "dump",
+    "detail": "Saves text to a file.",
+    "documentation": "dump [text] to [filename] eg. dump page-text to page-text.txt"
+  },
+  {
+    "label": "write",
+    "detail": "Appends text to a file.",
+    "documentation": "write [text] to [filename] eg. write page-text to page-text.txt"
+  },
+  {
+    "label": "ask",
+    "detail": "Gets text input from the user and stores the result in `ask_result`.",
+    "documentation": "ask [prompt] eg. ask What is the customer's name?"
+  },
+  {
+    "label": "live",
+    "detail": "Enters live mode, where commands can be entered interactively. Recommended for writing scripts.",
+    "documentation": "live"
+  },
+  {
+    "label": "tagui",
+    "detail": "Runs another TagUI script.",
+    "documentation": "tagui [filename] eg. tagui ./process-result"
+  },
+  {
+    "label": "keyboard",
+    "detail": "Simulates keystroke presses. Useful for interacting with desktop applications with Tab and other keys.",
+    "documentation": "keyboard"
+  },
+  {
+    "label": "mouse",
+    "detail": "Enters live mode, where commands can be entered interactively. Recommended for writing scripts.",
+    "documentation": "mouse [down/up] eg. mouse down\neg. mouse up"
+  },
+]
+
+
+[
+	"mouse",
+	"table",
+	"wait",
+	"check",
+	"upload",
+	"download",
+	"receive",
+	"frame",
+	"popup",
+	"api",
+	"run",
+	"dom",
+	"js",
+	"r",
+	"py",
+	"vision",
+	"timeout"]
